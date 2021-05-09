@@ -4,11 +4,11 @@
 
 ### Purpose
 
-This analysis will simplify and refactor the original VBA script to streamline the process and reduce execution time. By refactoring the original code, it will work for a larger number of stocks more quickly and present the information in a way that is quickly formatted and easy to understand.
+This project will simplify and refactor the original VBA script to streamline the process and reduce execution time. By refactoring the original code, it will work for a larger number of stocks more quickly and present the information in a way that is quickly formatted and easy to understand.
 
 ## Results
 
-The original script looped through the data repeatedly to check for each of the values requested, using nested `for` loops. Creating a `tickerIndex` variable allows the code to gather and store the information without the nested `for` loop. For example, the original code opens a `for` loop for each index of the ticker array and then has a nested `for` loop to check each row's data for the volume:
+The original script looped through the data repeatedly to check for each of the values requested, using nested `for` loops. Creating a `tickerIndex` variable allows the code to gather and store the information without the nested `for` loop, resulting in exponentially fewer times looping through the original data. For example, the original code opens a `for` loop for each index of the ticker array and then has a nested `for` loop to check each row's data for the volume, checking every row 12 times:
 
 ```
 For i = 0 to 11
@@ -40,7 +40,6 @@ Execution time for 2018 analysis - original vs. refactored code:
 ![Alt Text](https://github.com/lyanneagger/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 It should also be noted that the original code also does not inclue formatting, as that was a separate subroutine.
-
 
 ## Summary
 
