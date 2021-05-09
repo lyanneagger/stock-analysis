@@ -8,7 +8,7 @@ This analysis will simplify and refactor the original VBA script to streamline t
 
 ## Results
 
-The original script looped through the data repeatedly to check for each of the values requested, using nested 'for' loops. Creating a 'tickerIndex' variable allows the code to gather and store the information without the nested 'for loop. For example, the original code opens a 'for' loop for each index of the ticker array and then has a nested 'for' loop to check each row's data for the Volume:
+The original script looped through the data repeatedly to check for each of the values requested, using nested `for` loops. Creating a `tickerIndex` variable allows the code to gather and store the information without the nested `for` loop. For example, the original code opens a `for` loop for each index of the ticker array and then has a nested `for` loop to check each row's data for the volume:
 
 ```
 For i = 0 to 11
@@ -27,7 +27,7 @@ For i = 2 to RowCount
 Next i
 ```
 
-Reducing nested 'for' loops is a major factor in reducing the run time. Below is the comparison of the execution times for the original and the refactored code for both 2017 and 2018. 
+Reducing nested `for` loops is a major factor in reducing the run time. Below is the comparison of the execution times for the original and the refactored code for both 2017 and 2018. 
 
 Execution time for 2017 analysis - original vs. refactored code:
 
