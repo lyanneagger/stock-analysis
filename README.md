@@ -13,10 +13,12 @@ This analysis will look at several stocks to determine recent trends through 201
 
 
 Execution time for 2017 analysis - original vs. refactored code:
+
 ![Alt Text](https://github.com/lyanneagger/stock-analysis/blob/main/Resources/VBA_Challenge_2017_v1.png)
 ![Alt Text](https://github.com/lyanneagger/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 Execution time for 2018 analysis - original vs. refactored code:
+
 ![Alt Text](https://github.com/lyanneagger/stock-analysis/blob/main/Resources/VBA_Challenge_2018_v1.png)
 ![Alt Text](https://github.com/lyanneagger/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
