@@ -27,6 +27,8 @@ For i = 2 to RowCount
 Next i
 ```
 
+### Run Time Comparison
+
 Reducing nested `for` loops is a major factor in reducing the run time. Below is the comparison of the execution times for the original and the refactored code for both 2017 and 2018. 
 
 Execution time for 2017 analysis - original vs. refactored code:
